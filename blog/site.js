@@ -10,7 +10,7 @@ app.config(function ($httpProvider) {
  
 app.controller('instantSearchCtrl',function($scope,$http){
 	//$http.get('https://raw.githubusercontent.com/hoelfamily/website/master/data/blog.json').success(function(data, status, headers, config) {
-    $http.get('http://localhost:8000/blog/data/blog.json').success(function(data, status, headers, config) {
+    $http.get('data/blog.json').success(function(data, status, headers, config) {
 
 		$scope.items = data.reverse();
 
@@ -41,7 +41,7 @@ function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
     //xobj.open('GET', 'https://raw.githubusercontent.com/hoelfamily/website/master/data/blog.json', true);
-    xobj.open('GET', 'http://localhost:8000/blog/data/blog.json', true);
+    xobj.open('GET', 'data/blog.json', true);
 
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
