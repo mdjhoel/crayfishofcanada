@@ -1,0 +1,66 @@
+[
+    {
+    "number": "0",
+    "name": "On the trail of the great white",
+    "date": "August 20, 2015",
+    "author": "Mark Hoel",
+    "theme": "white",
+    "description": "white",
+    "keywords": "premek,mark,lake simcoe,fieldwork,white",
+    "segments": [
+      {
+        "img": "white.jpg",
+        "caption": "Great shot of a white O.P in Lake Simcoe.",
+        "paragraph": "On the trail of the elusive great white O.P of Lake Simcoe. <a href='https://microadv.blogspot.com/2015/08/on-trail-of-elusive-white-o-propincus.html' target='_blank'>Micro-adventures blog post</a>."
+      }
+    ]
+   },
+   {
+    "number": "1",
+    "name": "Great white II",
+    "date": "August 27, 2016",
+    "author": "Mark Hoel",
+    "theme": "white",
+    "description": "white",
+    "keywords": "premek,mark,lake simcoe,fieldwork,white",
+    "segments": [
+      {
+        "img": "prembig.jpg",
+        "caption": "Lots of sampling, but no whites found :-(",
+        "paragraph": "On the trail of the elusive great white O.P of Lake Simcoe. <a href='https://microadv.blogspot.com/2016/08/search-for-great-white-crayfish-ii.html' target='_blank'>Micro-adventures blog post</a>."
+      }
+    ]
+    },
+    {
+    "number": "2",
+    "name": "Summer fieldwork near Kempenfelt Bay",
+    "date": "August 20, 2019",
+    "author": "Mark Hoel",
+    "theme": "white",
+    "description": "white",
+    "keywords": "premek,kathryn,mark,lake simcoe,fieldwork,white",
+    "segments": [
+      {
+        "img": "white.jpg",
+        "caption": "Lots of sampling, but no whites found :-(",
+        "paragraph": ""
+      }
+    ]
+    },
+    {
+    "number": "3",
+    "name": "Dr. Crayfish, I presume?",
+    "date": "January 15, 2019",
+    "author": "Mark Hoel",
+    "theme": "white",
+    "description": "Interview with Nature Conservancy of Canada",
+    "keywords": "premek,interview,white",
+    "segments": [
+      {
+        "img": "whitehand.jpg",
+        "caption": "Juvenile white crayfish.",
+        "paragraph": "<a href='http://www.natureconservancy.ca/en/blog/dr-crayfish-i-presume.html#.XD-Fu_x7nUo' target='_blank'>Interview</a>"
+      }
+    ]
+  }
+]
