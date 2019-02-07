@@ -33,7 +33,7 @@
     },
     {
     "number": "2",
-    "name": "Summer fieldwork near Kempenfelt Bay",
+    "name": "Late Summer 2018 fieldwork.",
     "date": "August 20, 2019",
     "author": "Mark Hoel",
     "theme": "white",
@@ -41,9 +41,14 @@
     "keywords": "premek,kathryn,mark,lake simcoe,fieldwork,white",
     "segments": [
       {
-        "img": "white.jpg",
-        "caption": "Lots of sampling, but no whites found :-(",
-        "paragraph": ""
+        "img": "team_500.jpg",
+        "caption": "Great day with lots of sampling. Unfortunately, no whites found :-(",
+        "paragraph": "The team arrived on the shores of Lake Simcoe early on a cool clear late summer day. We sampled at Minets point and Lovers creek in Barrie."
+      },
+       {
+        "img": "",
+        "caption": "",
+        "paragraph": "<link rel='stylesheet' href='https://unpkg.com/leaflet@1.4.0/dist/leaflet.css'/><script src='https://unpkg.com/leaflet@1.4.0/dist/leaflet.js'></script><div id='map' style='width:100%; height:500'></div><script>map = new L.Map('map');osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';osmAttrib='OpenStreetMap';osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});map.setView(new L.LatLng(44.373766, -79.667574),13);map.addLayer(osm);L.marker([44.37, -79.652]).addTo(map).bindPopup('Lovers creek, Barrie.<br> Cold water paradise for crays.'); L.marker([44.373766, -79.667574]).addTo(map).bindPopup('Minets point, Barrie.<br> Freezing cold water, but few crays.');</script>"
       }
     ]
     },
@@ -59,8 +64,8 @@
       {
         "img": "whitehand.jpg",
         "caption": "Juvenile white crayfish.",
-        "paragraph": "<a href='http://www.natureconservancy.ca/en/blog/dr-crayfish-i-presume.html#.XD-Fu_x7nUo' target='_blank'>Interview</a>"
+        "paragraph": "<a href='http://www.natureconservancy.ca/en/blog/dr-crayfish-i-presume.html#.XD-Fu_x7nUo' target='_blank'>Interview with Nature Conservancy of Canada. </a>"
       }
-    ]
-  }
+      ]
+    }
 ]
