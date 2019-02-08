@@ -43,12 +43,17 @@
       {
         "img": "team_500.jpg",
         "caption": "Great day with lots of sampling. Unfortunately, no whites found :-(",
-        "paragraph": "The team arrived on the shores of Lake Simcoe early on a cool clear late summer day. We sampled at Minets point and Lovers creek in Barrie."
+        "paragraph": "The team arrived on the shores of Lake Simcoe early on a cool clear late summer day. We sampled at Minets point, Lovers creek and Hewitts creek in the Barrie area. Lovers creek turned out to be most fruitful location by far."
+      },
+            {
+        "img": "markhewitt_500.jpg",
+        "caption": "Hewitts creek is suburban, but surprisingly wild.",
+        "paragraph": ""
       },
        {
         "img": "",
         "caption": "",
-        "paragraph": "<link rel='stylesheet' href='https://unpkg.com/leaflet@1.4.0/dist/leaflet.css'/><script src='https://unpkg.com/leaflet@1.4.0/dist/leaflet.js'></script><div id='map' style='width:100%; height:500'></div><script>map = new L.Map('map');osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';osmAttrib='OpenStreetMap';osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});map.setView(new L.LatLng(44.373766, -79.667574),13);map.addLayer(osm);L.marker([44.37, -79.652]).addTo(map).bindPopup('Lovers creek, Barrie.<br> Cold water paradise for crays.'); L.marker([44.373766, -79.667574]).addTo(map).bindPopup('Minets point, Barrie.<br> Freezing cold water, but few crays.');</script>"
+        "paragraph": "<link rel='stylesheet' href='https://unpkg.com/leaflet@1.4.0/dist/leaflet.css'/><script src='https://unpkg.com/leaflet@1.4.0/dist/leaflet.js'></script><div id='map' style='width:100%; height:500'></div><script>map = new L.Map('map');osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';osmAttrib='OpenStreetMap';osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});map.setView(new L.LatLng(44.373766, -79.667574),13);map.addLayer(osm);L.marker([44.37, -79.652]).addTo(map).bindPopup('<b>Lovers creek</b><br> Cold water paradise for crays.'); L.marker([44.373766, -79.667574]).addTo(map).bindPopup('<b>Minets point</b><br> Freezing cold water, but few crays.'); L.marker([44.365328, -79.632419]).addTo(map).bindPopup('<b>Hewitts creek</b><br>Unexpectedly beautiful place in the suburbs,<br>but only but few crays.<br><img src=' + 'data/images/markhewitt_250.jpg' + '>');</script>"
       }
     ]
     },
