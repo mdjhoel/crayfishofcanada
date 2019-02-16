@@ -26,7 +26,7 @@ function loadJSON(callback) {
     	slab.push("<link href='website.css' rel='stylesheet'>");
         slab.push("<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>");
     	slab.push("</header>");
-    	slab.push("<nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'><div class='container'><a class='navbar-brand' href='https://hoelfamily.github.io/website/'><img alt='Brand' src='data/images/logosm.png'></a><ul class='nav navbar-nav navbar-right'><a id='mylink' href='https://hoelfamily.github.io/website/'>hoels</a></ul></div></nav>");
+    	slab.push("<nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'><div class='container'><div class='navbar-header'><button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1'><span class='sr-only'>Toggle navigation</span><span class='icon-bar'></span><span class='icon-bar'></span><span class='icon-bar'></span></button></div><div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'><img src='../cray.svg' width='30px'/><ul class='nav navbar-nav navbar-right'><a id='mylink' href='../index.html'>Home</a> |<a id='mylink' href='../about.html'>About</a> |<a id='mylink' href='../gallery.html'>Gallery</a> |<a id='mylink' href='../papers.html'>Papers</a> |<a id='mylink' href='index.html'>Blog</a></ul></div></div></nav>");
     	slab.push("<div class='container'>");
     	slab.push("<h3>" + actual_JSON[n].name + "</h3>");
         slab.push("<p><i class='icon-large icon-search'></i><span class='glyphicon glyphicon-time'></span> Posted by " + actual_JSON[n].author + " on " + actual_JSON[n].date + "</p><hr>");
