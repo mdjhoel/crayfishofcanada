@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Crayfish of Canada</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+		<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 		<link href='website.css' rel='stylesheet'>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	</head>
@@ -22,49 +23,32 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-             <img src="cray.svg" width="30px"/>
-	         <ul class="nav navbar-nav navbar-right">
-				<a id="mylink" href='index.html'>Home</a> |
+             <a href='index.html'><img src="cray.svg" width="30px"/></a>
+	         <ul class="nav navbar-nav navbar-right" style="padding-right: 20px">
 				<a id="mylink" href='about.html'>About</a> |
 				<a id="mylink" href='gallery.html'>Gallery</a> |
-				<a id="mylink" href='papers.html'>Papers</a> |
+				<a id="mylink" href='stories.html'>Stories</a> |
 				<a id="mylink" href='blog'>Blog</a>
 		     </ul>
 	     </div>
 	   </div>
     </nav>
+
 	
 	<div class="container">
-	<img src="images/splash.jpg" width="100%"/ style="padding-top: 20px;">
+		<center>
+		<h1>Crayfish of Canada</h1>
+		<p>
+		<img src="cfc.svg" id="logo">
+		</p>
+		<a class="btn btn-primary" href="#nav">Enter</a>
+		</center>
 		<hr>
-		<h1 style="padding-top: 20px">Crayfish of Canada</h1>
-		<p>Welcome to our site. Here you will find photos, papers and stories about crayfish science, history and culture in Canada and around the world.</p>
 		
-		<h3>History</h3>
-		<div class="row" style="padding-top: 10px;">
-    	<div class="col-sm-12 col-md-6">
-			<div class="thumbnail">
-				<img src="images/lim_draw.jpg" alt="...">
-				<div class="caption">
-					<h3>Unintended consequences</h3>
-					<p>The spiny cheek crayfish was <a href="https://en.wikipedia.org/wiki/Orconectes_limosus" target="_blank">introduced to Europe</a> from North America in the 1890s. It carried crayfish plague!</p>
-				</div>
-			</div>
-		</div>
 
-		<div class="col-sm-12 col-md-6">
-			<div class="thumbnail">
-				<img src="images/rusty_draw.jpg" alt="...">
+		<h3 id="nav" style="padding-top: 70px;">Site navigation</h3>
+		<p>Welcome to Crayfish of Canada, a site dedicated to the science and culture of crayfish!</p>
 
-				<div class="caption">
-					<h3>The traveler</h3>
-					<p>The rustycrayfish is large aggressive and well travelled. This species originates in Ohio, but is now found <a href="https://en.wikipedia.org/wiki/Rusty_crayfish" target="_blank">throughout eastern North America</a>.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-		<h3>Navigation</h3>
 		<div class="row">
   			<div class="col-sm-12 col-md-4">
     		<div class="thumbnail">
@@ -78,11 +62,11 @@
 			</div>
 			<div class="col-sm-12 col-md-4">
     		<div class="thumbnail">
-      			<img src="images/plate.jpg" alt="...">
+      			<img src="images/lim_draw_sm.jpg" alt="...">
       			<div class="caption">
-        			<h3>Papers</h3>
-        			<p style="font-size: 12px;">Journals and papers about Canadian crayfish.</p>
-        			<p><a href="papers.html" class="btn btn-primary" role="button">Go</a></p>
+        			<h3>Stories</h3>
+        			<p style="font-size: 12px;">Stories and history about Canadian crayfish.</p>
+        			<p><a href="gallery.html" class="btn btn-primary" role="button">Go</a></p>
       			</div>
     		</div>
 			</div>
