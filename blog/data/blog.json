@@ -82,5 +82,26 @@
         "paragraph": "<a href='http://www.natureconservancy.ca/en/blog/dr-crayfish-i-presume.html#.XD-Fu_x7nUo' target='_blank'>Interview with Nature Conservancy of Canada. </a>"
       }
       ]
+    },
+     {
+    "number": "4",
+    "name": "Credit Valley Environmental Award goes to Dr. Crayfish",
+    "date": "March 18, 2019",
+    "author": "Mark Hoel",
+    "theme": "award",
+    "description": "Credit Valley Conservation Authority Award",
+    "keywords": "premek,award",
+    "segments": [
+      {
+        "img": "award.jpg",
+        "caption": "Premek Hamr receives CVCA Environmental Awareness and Engagement award.",
+        "paragraph": "Premek Hamr won the Environmental Awareness and Engagement award from <a href='https://cvc.ca/' target='_blank'>Credit Valley Conservation Authority</a>, for the work he has been doing with the his students out in the Credit watershed. The award recognizes the hard work Dr. Hamr has put in organizing and follow through on outdoor education activities (including crayfish counts), year after year, through all kinds of weather."
+      },
+      {
+        "img": "trophy.jpg",
+        "caption": "Well deserved recognition.",
+        "paragraph": ""
+      }
+      ]
     }
 ]
