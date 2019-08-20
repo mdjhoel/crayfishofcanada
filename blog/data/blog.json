@@ -33,7 +33,7 @@
     },
     {
     "number": "2",
-    "name": "Late Summer 2018 fieldwork.",
+    "name": "Summer 2018 Lake Simcoe fieldwork.",
     "date": "August 20, 2019",
     "author": "Mark Hoel",
     "theme": "white",
@@ -103,5 +103,36 @@
         "paragraph": ""
       }
       ]
+    },
+    {
+    "number": "5",
+    "name": "Summer 2019 Lake Simcoe fieldwork.",
+    "date": "August 18, 2019",
+    "author": "Mark Hoel",
+    "theme": "white",
+    "description": "white",
+    "keywords": "premek,mark,lake simcoe,fieldwork,white",
+    "segments": [
+           {
+        "img": "mview_cray.jpg",
+        "caption": "Great day of sampling. This beauty found on Mapleview beach.",
+        "paragraph": "Beautiful sunny day on Lake Simcoe and tributary streams. We sampled at Lovers creek, Hewitts creek and the end of Mapleview Road in the Barrie area. Lovers creek turned out to be most fruitful location by far.<br><ul><li>End of Maple View rd.  6  F.virilis (all juveniles CPL 12-16 mm) some moulting 4 large female F. virilis. 2 of them with Rusty backs & Blue claws . One very large (photos). None measured</li></ul>"
+      },
+            {
+        "img": "lovers_catch.jpg",
+        "caption": "Lovers creek yielded many virilus and propincus.",
+        "paragraph": "<ul><li>11  F. propinquus 2 were very light grey with blue claws: F CPL 27 & M CPL 12, 9 were various shades of grey-brown CPL F14, F16, F14,M16, M15, M15, M27, M22, M28)</li><li>6  F. virilis (all juveniles CPL 12-16 mm) some moulting. Mostly toward marina side of creek. There were many there that we did not catch. Sampled from 44.372355, -79.651333 (road culvert) to 44.373310, -79.650595 (marina bend above boats)</li></ul>"
+      },
+      {
+        "img": "hewitt_view.jpg",
+        "caption": "Hewitts creek leads to Wilkins beach, but not many crays",
+        "paragraph": "Wilkins beach: 1 large F. virilis (dead), Hewitt’s creek: 1 C. robustus female; 1 large F. virilis (dead), 1 large virilis claw"
+      },
+      {
+        "img": "",
+        "caption": "",
+        "paragraph": "<link rel='stylesheet' href='https://unpkg.com/leaflet@1.4.0/dist/leaflet.css'/><script src='https://unpkg.com/leaflet@1.4.0/dist/leaflet.js'></script><div id='map' style='width:100%; height:500'></div><script>map = new L.Map('map');osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';osmAttrib='OpenStreetMap';osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});map.setView(new L.LatLng(44.372501, -79.605751),13);map.addLayer(osm);L.marker([44.37, -79.652]).addTo(map).bindPopup('<b>Lovers creek</b><br>Many propincus found at this sample point.<br><img src=' + 'data/images/lovers_cray_250.jpg' + '>'); L.marker([44.368785, -79.632831]).addTo(map).bindPopup('<b>Hewitts creek</b><br>Beautiful accessible creek leading to a nice beach, but few crays<br><img src=' + 'data/images/hewitt_view_250.jpg' + '>'); L.marker([44.369429, -79.535370]).addTo(map).bindPopup('<b>Mapleview Road beach</b><br>Gorgeous beach and great conditions.<br>Four large beautiful virilus found.<br><img src=' + 'data/images/mview_view_250.jpg' + '>');</script>"
+      }
+    ]
     }
 ]
